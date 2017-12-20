@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <title>FBS Football Coach Salaries</title>
+        <meta charset="utf-8" />
+
+
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="./theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="./theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="./theme/pygment.css" />
+
+        <script src="./theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+
+
+</head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="./">Rachel Ehlers <strong></strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="./">Home</a></li>
+
+                <li><a href="./pages/about.html">About</a></li>
+
+              </ul>
+            </div>
+
+<section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="./FBS salaries.html" rel="bookmark"
+                   title="Permalink to FBS Football Coach Salaries">FBS Football Coach Salaries</a></h2>
+           
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2017-12-12T10:20:00-07:00">
+                Tue 12 December 2017
+              </abbr>
+              <address class="vcard author">By 
+                <a class="url fn" href="./author/rachel-ehlers.html"> Rachel Ehlers</a>
+              </address>
+            </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <hr>
+<p>Coaching amateurs can be a lucrative endeavor. In 2016, the top-earning public employee in 27 states was an NCAA Division-I FBS football coach; in 12 others, it was a D-I college basketball coach. For those unfamiliar with the kind of money these individuals rake in: Alabama will have paid Nick Saban a whopping $11.125 million dollars by the end of the year. With the exception of 2016, he’s been the highest earner each year since 2012. The one hiccup in his would-be 7-year streak was the result of Jim Harbaugh’s $9 million deal with Michigan. While these salaries are arguably excessive (even Saban said, “probably not” when asked if he was worth $11 million this year), they provide insight on how far schools are willing to go to attract the top talent and keep them from straying. </p>
+<p>What about the rest of the staff? Each team is allowed 9 paid assistant coaches-- that is, until January 2018, when the NCAA will allow teams 10 assistants. Curious about trends in salary distribution across teams and conferences, I began to search for a reliable source of data, finding one in USA Today. Since 2014, the publication has requested coaching staff compensation data from all FBS schools. Private schools are exempt from reporting such information, but data is available for almost every public FBS school. </p>
+<p>I attended an FCS school (University of Montana - go Griz!), so I'm much more familiar with football at that level. What little knowledge I had gleaned about head coach salaries from headlines, I knew even less about assistant coaches. </p>
+<p>Here are a few things that stood out to me at first glance, coming from a place of naivete:
+<em> 7 of the top 10 assistant coach salaries in 2017 were paid to coaches at SEC schools. LSU's Dave Aranda was the top earner, pulling in $1,800,000
+</em> Coaches in the Power Five conferences 
+*</p>
+<p>The following plot consists of each school's head coach salary plotted against the school's assistant staff salaries totaled. Each blue point represents a non-Power Five head coach, and orange points represent Power Fives. I also included a line of equality for reference (where head coach salary would equal the staff total). The dropdown on the left allows you to switch what year's data is shown. </p>
+<iframe width="900" height="900" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/0.embed"></iframe>
+
+<h3>Methodology</h3>
+<p>The most up-to-date salary data can be found at the links at the end of this post. I found data from 2014-2016 using the <a href="http://archive.org/web/">Wayback Machine</a>. I scraped and parsed the data using the Python libraries requests and BeautifulSoup. I structured and cleaned it using pandas. For visualization and analysis, I played around with both R and Python. I settled on using plotly for the following interactive. For runnable Python code, go check out my accompanying notebook.</p>
+<h4>Links</h4>
+<p>[Python notebook with methodology]</p>
+<p><a href="http://sports.usatoday.com/ncaa/salaries/">Head coaches</a> 
+<a href="http://sports.usatoday.com/ncaa/salaries/football/assistant">Assistant coaches</a> 
+<a href="http://sports.usatoday.com/ncaa/salaries/football/strength">Strength coaches</a> </p>
+<p>For those who would like to follow along with the code and process of scraping, cleaning, and visualizing the data, check out my accompanying blog post. It's a Jupyter notebook, so the code is executable in your browser. Even if you've never coded before, I strongly encourage you to try it out. I provided step-by-step directions of how to run code, alter it, and then see what you built. </p>
+<p>Data 
+I wrote CSV files of the data and posted them <a href="https://github.com/rachelehlers11/FBScoachsalaries/tree/master/salaryfiles">here</a> if you would like to download and me</p>
+            </div><!-- /.entry-content -->
+
+
+        </div><!-- /.eleven.columns -->
+
+<div class="three columns">
+
+<h4>Pages</h4>
+
+ <ul>
+      <li><a href="./pages/about.html">About</a></li>
+  </ul>
+
+
+
+
+
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+
+       <div class="container.nopad bg">
+
+    
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+
+  <script src="./theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="./theme/js/libs/gumby.min.js"></script>
+  <script src="./theme/js/plugins.js"></script>
+</body>
+</html>
