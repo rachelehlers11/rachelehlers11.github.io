@@ -13,7 +13,8 @@ TIMEZONE = 'America/Boise'
 DEFAULT_LANG = 'en'
 
 
-THEME = "customgum"
+THEME = '/Users/rachelehlers/pelican-themes/gum'
+#THEME = "notmyidea"
 
 
 # Feed generation is usually not desired when developing

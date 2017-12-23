@@ -1,5 +1,5 @@
-Consulting
-==========
+Title: Consulting
+
 This page is intended for professional contact. For other messages, please email me at ADD CASUAL EMAIL
 
 Services include, but are not limited to, the following:
