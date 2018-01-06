@@ -66,83 +66,15 @@
             <div class="entry-content">
               <hr>
 <p>Coaching amateurs can be a lucrative endeavor. In 2016, the top-earning public employee in 27 states was an NCAA Division-I FBS football coach; in 12 others, it was a D-I college basketball coach. For those unfamiliar with the kind of money these individuals rake in: Alabama will have paid Nick Saban a whopping $11.125 million dollars by the end of the year. With the exception of 2016, he’s been the highest earner each year since 2012. The one hiccup in his would-be 7-year streak was the result of Jim Harbaugh’s $9 million deal with Michigan. While these salaries are arguably excessive (even Saban said, “probably not” when asked if he was worth $11 million this year), they provide insight on how far schools are willing to go to attract the top talent and keep them from straying. </p>
-<p>What about the rest of the staff? For years, each team has been allowed 9 paid assistant coaches. Starting in January, they'll be allowed 10. Curious about trends in salary distribution across teams and conferences, I began to search for a reliable source of data, and found one in USA Today. Since 2014, the publication has requested coaching staff compensation data from all FBS schools. Private schools are exempt from reporting such information. </p>
+<p>What about the rest of the staff? For years, each team has been allowed 9 paid assistant coaches. Starting in January, they'll be allowed 10. Curious about trends in salary distribution across teams and conferences, I began to search for a reliable source of data, finding one in USA Today. Since 2014, the publication has requested coaching staff compensation data from all FBS schools. Private schools are exempt from reporting such information. </p>
 <p>The following plot consists of each school's head coach salary plotted against the school's assistant staff salaries totaled. Each blue point represents a non-Power Five head coach, and orange points represent Power Fives. I also included a line of equality for reference (where head coach salary would equal the staff total). The dropdown on the left allows you to switch what year's data is shown. Hovering over a point will reveal the corresponding coach, school, salary, and total staff salary. </p>
-<iframe width="1200" height="900" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/0.embed"></iframe>
+<iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/0.embed"></iframe>
 
-<p>Coaches making more than the rest of their staff: </p>
-<table>
-<thead>
-<tr>
-<th>Year</th>
-<th>Category</th>
-<th align="center">Coaches making more than Assistant total</th>
-<th align="right">Total Coaches</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2014</td>
-<td>Power Five</td>
-<td align="center">29</td>
-<td align="right">23</td>
-</tr>
-<tr>
-<td>2014</td>
-<td>Others</td>
-<td align="center">53</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td>2015</td>
-<td>Power Five</td>
-<td align="center">26</td>
-<td align="right">26</td>
-</tr>
-<tr>
-<td>2015</td>
-<td>Others</td>
-<td align="center">52</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td>2016</td>
-<td>Power Five</td>
-<td align="center">27</td>
-<td align="right">24</td>
-</tr>
-<tr>
-<td>2016</td>
-<td>Others</td>
-<td align="center">51</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td>2017</td>
-<td>Power Five</td>
-<td align="center">27</td>
-<td align="right">24</td>
-</tr>
-<tr>
-<td>2017</td>
-<td>Others</td>
-<td align="center">54</td>
-<td align="right">1</td>
-</tr>
-</tbody>
-</table>
-<p>2014: 
-29 23
-53 3</p>
-<p>2015:
-26 26
-52 3</p>
-<p>2016:
-27 24
-51 4</p>
-<p>2017:
-27 24
-54 1</p>
+<p>Each year from 2014-2017, about half of Power Five head coaches collected a salary greater than the combined salaries of their 9 assistants. Outside of the Power Five, usually only 3 or 4 coaches make more than their staff (about 5% per year). This can be seen on the plot above, in the points plotted to the right of the line of equality. </p>
+<iframe width="425" height="425" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/37.embed"></iframe>
+
+<iframe width="425" height="425" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/35.embed"></iframe>
+
 <p>I attended an FCS school, so I'm much more familiar with football at that level. Here are a few things that stood out to me at first glance, coming from a place of naivete:
 - 7 of the top 10 assistant coach salaries in 2017 were paid to coaches at SEC schools. LSU's Dave Aranda was the top earner, pulling in $1,800,000
 - Coaches in the Power Five conferences are on another level compared to those at non-Power Five schools. 
@@ -154,9 +86,9 @@
 <p>The most up-to-date salary data can be found at the links at the end of this post. I found data from 2014-2016 using the <a href="http://archive.org/web/">Wayback Machine</a>. I scraped and parsed the data using the Python libraries requests and BeautifulSoup. I structured and cleaned it using pandas. For visualization and analysis, I played around with both R and Python. I settled on using plotly for the following interactive. For runnable Python code, go check out my accompanying notebook.</p>
 <h4>Links</h4>
 <p>[Python notebook with methodology]</p>
-<p><a href="http://sports.usatoday.com/ncaa/salaries/">Head coaches</a> 
-<a href="http://sports.usatoday.com/ncaa/salaries/football/assistant">Assistant coaches</a> 
-<a href="http://sports.usatoday.com/ncaa/salaries/football/strength">Strength coaches</a> </p>
+<p><a href="http://sports.usatoday.com/ncaa/salaries/">Head coaches</a> </p>
+<p><a href="http://sports.usatoday.com/ncaa/salaries/football/assistant">Assistant coaches</a> </p>
+<p><a href="http://sports.usatoday.com/ncaa/salaries/football/strength">Strength coaches</a> </p>
             </div><!-- /.entry-content -->
 
 
