@@ -1,17 +1,17 @@
 Title: About
-Hi, name is Rachel Ehlers, and I'm a mathematician from Montana. I grew up on my family farm in northern Montana and went to high school in a town called Sunburst (population < 500). I graduated from the University of Montana in May 2017. My accreditations include:
--B.A. in Mathematics, Statistics option (with Honors)
--Minor in Economics
--Certificate in Big Data Analytics
-
-Aside from mathematics and data science, my passions include music, art, film, and my dog, Dali.
+Hi, my name is Rachel Ehlers. I'm a mathematician from Montana. 
 
 
+In May I graduated from the University of Montana, earning my bachelor's in mathematics with a focus in statistics, a minor in economics, and a certificate in big data analytics. 
 
-For consulting inquiries: please complete the form on my [Consulting] page. 
+I started this blog to share data science projects, art, and whatever else I feel like talking about. 
+My other interests include music, art, film.
+
+In my spare time I like to play the piano, spend time at Flathead Lake, and hike with my dog, Dali.
 
 
-For anything else worth talking about, email me at ADD CASUAL EMAIL
+For business contact: rachel.ehlers119@gmail.com
+For anything else worth talking about, email me: rachelehlers_11@hotmail.com
 Suggestions include, but are not limited to: 
 
 
