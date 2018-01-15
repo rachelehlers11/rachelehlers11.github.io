@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rachel Ehlers - Sports</title><link href="http://rachelehlers.github.io/" rel="alternate"></link><link href="http://rachelehlers.github.io/feeds/sports.atom.xml" rel="self"></link><id>http://rachelehlers.github.io/</id><updated>2018-01-14T00:00:00-07:00</updated><entry><title>FBS Coach Salaries</title><link href="http://rachelehlers.github.io/FBS%20salaries.html" rel="alternate"></link><published>2018-01-14T00:00:00-07:00</published><updated>2018-01-14T00:00:00-07:00</updated><author><name>Rachel Ehlers</name></author><id>tag:rachelehlers.github.io,2018-01-14:/FBS salaries.html</id><summary type="html">&lt;p&gt;A look at FBS coach salary data scraped from USA Today.&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Coaching amateur athletes can be a lucrative endeavor. In 2016, the top-earning public employee in 27 states was an NCAA Division-I FBS coach (and a D-I basketball coach in 12 others). In 2017, Alabama paid Nick Saban a whopping $11.132 million salary. With the exception of 2016, he’s been the top earner each year since 2012. The one hiccup in his would-be 7-year streak was the result of Jim Harbaugh’s $9 million deal with Michigan. While these salaries are arguably excessive (even Saban said, “probably not” when asked if he was worth $11 million this year), they provide insight on how far schools are willing to go to attract the top talent and keep them from straying. &lt;/p&gt;
+&lt;p&gt;I attended an FCS school, and before looking into this data, I was much more familiar with that level of play and coach pay. My knowledge of FBS coach salaries was limited to what headlines I'd seen about Saban and Harbaugh. I was curious about trends in pay distribution and searched for a reliable source of data, finding one in USA Today(links at the end of this post). Since 2014, the publication has requested and released coach compensation data from all FBS schools.  Public schools are required to release such information, but private schools are exempt. Read on to learn a few things I found interesting about the available data. &lt;/p&gt;
+&lt;h4&gt;Head Coach Salaries Across Conferences&lt;/h4&gt;
+&lt;hr&gt;
+&lt;p&gt;First, let's take a look at head coach salaries. Below is a plot displaying head coach salaries by conference. Hovering over a point will reveal the corresponding coach, salary, and school. If you want to zoom in on a specific part of the plot (for example, to get a closer look at salaries in the MAC, which appear to be grouped very closely due to scaling), use your mouse to drag a box around the area. To zoom back out, double-click anywhere in the plot area. Please note that "Ind." does not represent a conference, but rather the limited data available from independent schools.  &lt;/p&gt;
+&lt;iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/133.embed"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;For each year in question, SEC coaches made the most, followed by the Big Ten. These two conferences are members of the Power Five, along with the ACC, Pac-12, and Big 12. Teams outside of these conferences are either in the Group of Five (American Athletic Conference, Conference USA, Mid-American Conference, Mountain West Conference, and the Sun Belt) or are independent (Notre Dame, Massachusetts, Brigham Young, and Army). &lt;/p&gt;
+&lt;p&gt;Now, let's put the salaries of the highest earners in perspective. 
+Of the Group of Five, three conferences had complete head coach salary data: the Mid-American Conference, Sun Belt, and Conference USA. The 38 head coach salaries in these conferences sum to $24.276 million. The top three individual earners overall (Nick Saban, Dabo Swinney, and Jim Harbaugh), collectively earned $26.64 million. &lt;strong&gt;That means their 3 salaries could cover the salaries of all 38 head coaches in these 3 conferences, with more than $2.3 million to spare&lt;/strong&gt;. &lt;/p&gt;
+&lt;h4&gt;Assistant Coach Salaries Across Conferences&lt;/h4&gt;
+&lt;hr&gt;
+&lt;p&gt;The following boxplots display assistant coach salaries by conference. The points to the left of each boxplot display the underlying data. &lt;/p&gt;
+&lt;iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/143.embed"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Like their head coaches, assistants in the SEC tend to earn more than those in other conferences. In 2017, seven of the top 9 assistant salaries went to SEC coaches. LSU's defensive coordinator, Dave Aranda, was the top-earning assistant, making $1.8 million. His defensive counterpart, Matt Canada, was fourth on the list with $1.505 million. Alabama and Michigan each employed a pair of assistants in the top 10. &lt;/p&gt;
+&lt;h4&gt;Comparing Head Coach Pay to Staff Pay&lt;/h4&gt;
+&lt;hr&gt;
+&lt;p&gt;The following plot consists of each school's head coach salary plotted against their staff's salaries totaled. &lt;/p&gt;
+&lt;p&gt;For each year from 2014-2017, about 50% of Power Five head coaches made received a salary greater than their 9 assistants' salaries totaled. This was only true for about 5% of schools outside of Power Five conferences each year. &lt;/p&gt;
+&lt;iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/0.embed"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;My Methodology&lt;/h3&gt;
+&lt;p&gt;The most up-to-date salary data can be found at the links at the end of this post. I found data from 2014-2016 using the &lt;a href="http://archive.org/web/"&gt;Wayback Machine&lt;/a&gt;. I scraped and parsed the data using the Python libraries requests and BeautifulSoup, then cleaned and structured it using pandas. For the visualizations in this post, I used plotly. Code for scraping the data is on &lt;a href="https://github.com/rachelehlers11/FBScoachsalaries/blob/master/dataframebuilder.py"&gt;my GitHub&lt;/a&gt;. The files in CSV form (all years included) are at &lt;a href="https://github.com/rachelehlers11/FBScoachsalaries/tree/master/salaryfiles"&gt;this link&lt;/a&gt;. &lt;/p&gt;
+&lt;h3&gt;Current Data Links&lt;/h3&gt;
+&lt;p&gt;USA Today's site only keeps live the most current data (2017). Refer to "My Methodology" for past years' data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://sports.usatoday.com/ncaa/salaries/"&gt;Head coaches&lt;/a&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://sports.usatoday.com/ncaa/salaries/football/assistant"&gt;Assistant coaches&lt;/a&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://sports.usatoday.com/ncaa/salaries/football/strength"&gt;Strength coaches&lt;/a&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Yearly USA Today Methodology Links&lt;/h3&gt;
+&lt;p&gt;2014&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2014/11/19/2014-ncaa-football-head-coach-salaries-methodology/"&gt;Head coaches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2014/12/10/2014-ncaa-football-assistant-coaches-methodology/"&gt;Assistants&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2015&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2015/10/08/2015-ncaa-football-head-coach-salaries-methodology/"&gt;Head coaches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2015/12/08/2015-ncaa-football-assistant-coach-salaries-methodology/"&gt;Assistants&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2016&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2016/10/25/2016-ncaa-football-head-coach-salaries-methodology/"&gt;Head coaches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2016/12/06/2016-ncaa-football-assistant-coach-salaries-methodology/"&gt;Assistants&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2016/12/06/2016-ncaa-football-strength-coach-salaries-methodology/"&gt;Strength coaches&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2017&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2017/10/25/2017-ncaa-football-head-coach-salaries-methodology/"&gt;Head coaches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2017/12/06/2017-ncaa-football-assistant-coach-salaries-methodology/"&gt;Assistants&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sports.usatoday.com/2017/12/06/2017-ncaa-football-strength-coach-salaries-methodology/"&gt;Strength coaches&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="web scraping"></category><category term="pandas"></category><category term="BeautifulSoup"></category></entry></feed>

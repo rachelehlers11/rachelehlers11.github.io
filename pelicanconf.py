@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Rachel Ehlers'
 SITENAME = 'Rachel Ehlers'
-SITEURL = ''
-
+SITEURL = 'http://rachelehlers11.github.io'
+OUTPUT_PATH = './output'
 PATH = './content'
 
 TIMEZONE = 'America/Boise'
@@ -52,4 +52,4 @@ RELATIVE_URLS = True
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup']
+#PLUGINS = ['ipynb.markup']
