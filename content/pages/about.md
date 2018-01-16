@@ -14,8 +14,9 @@ In May I graduated from the University of Montana, earning my:
 My other interests include music, art, and film. In my spare time I like to play the piano, spend time at Flathead Lake, and hike with my dog, Dali.
 
 
-For business: <contact@rachelehlers.com>
+For business: <rachel.ehlers119@gmail.com>
 
-For anything else worth talking about: <hi@rachelehlers.com>
+For anything else worth talking about: <rachtheanalyst@gmail.com>
 
-
+GitHub: <https://github.com/rachelehlers11>
+Twitter: <https://twitter.com/rachehlers>
