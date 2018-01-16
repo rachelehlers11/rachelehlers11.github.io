@@ -43,7 +43,7 @@ Like their head coaches, assistants in the SEC tend to earn more than those in o
 
 The following plot consists of each school's head coach salary plotted against their staff's salaries totaled. 
 
-For each year from 2014-2017, about 50% of Power Five head coaches made received a salary greater than their 9 assistants' salaries totaled. This was only true for about 5% of schools outside of Power Five conferences each year. 
+For each year from 2014-2017, about 50% of Power Five head coaches made a salary greater than their 9 assistants' salaries totaled. This was only true for about 5% of schools outside of Power Five conferences each year. 
 
 <iframe width="800" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~rachehlers/0.embed"></iframe>
 
