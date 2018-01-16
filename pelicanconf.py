@@ -30,9 +30,10 @@ STATIC_PATHS = ['../CNAME', 'images']
 EXTRA_PATH_METADATA = {'../CNAME': {'path': 'CNAME'}}
 
 GITHUB_URL = 'https://github.com/rachelehlers11'
-#TWITTER_URL = 'https://twitter.com/rachehlers'
+TWITTER_URL = 'https://twitter.com/rachehlers'
 
 
+GOOGLE_ANALYTICS_ID = 'UA-112527021-1'
 
 
 '''
