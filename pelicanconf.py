@@ -26,8 +26,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-STATIC_PATHS = ['images']
-
+STATIC_PATHS = ['../CNAME', 'images']
+EXTRA_PATH_METADATA = {'../CNAME': {'path': 'CNAME'}}
 
 GITHUB_URL = 'https://github.com/rachelehlers11'
 #TWITTER_URL = 'https://twitter.com/rachehlers'
