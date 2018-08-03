@@ -3,20 +3,10 @@ Title: About
 <span style="display:block;text-align:center">![Alt Text]({filename}/images/aboutphoto.jpg)</span>
 
 
-Hi, my name is Rachel Ehlers. I'm a mathematician from Montana. I started this blog to share data science projects and anything else I feel like talking about.
+Hi, my name is Rachel Ehlers. I'm a data scientist living in Portland and working at [Swift](http://www.swift.co/), a creative agency. I started this blog to share data science projects and anything else I feel like talking about.
 
-In May I graduated from the University of Montana, earning my: 
+I graduated from the University of Montana in 2017, earning my B.A. in mathematics with an option in statistics, an economics minor, and a certificate in big data analytics. My other interests include music, art, and film. In my spare time I like to play the piano and run with my dog, Dali.
 
-- B.A. in Mathematics (Statistics Option)
-- Economics minor
-- Big Data Analytics Certificate
-
-My other interests include music, art, and film. In my spare time I like to play the piano, spend time at Flathead Lake, and hike with my dog, Dali.
-
-
-For business: <rachel.ehlers119@gmail.com>
-
-For anything else worth talking about: <rachtheanalyst@gmail.com>
 
 GitHub: <https://github.com/rachelehlers11>
 Twitter: <https://twitter.com/rachehlers>
