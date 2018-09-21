@@ -8,7 +8,9 @@ Summary: A look at FBS coach salary data scraped from USA Today.
 
 
 ---------------------------
- 
+Before reading: Know the interactive plots in this post are made to be viewed on a laptop or desktop.
+
+
 Coaching amateur athletes can be a lucrative endeavor. In 2016, the top-earning public employee in 27 states was an NCAA Division-I FBS coach (and a D-I basketball coach in 12 others). In 2017, Alabama paid Nick Saban a whopping $11.132 million salary. With the exception of 2016, he’s been the top earner each year since 2012. The one hiccup in his would-be 7-year streak was the result of Jim Harbaugh’s $9 million deal with Michigan. While these salaries are arguably excessive (even Saban said, “probably not” when asked if he was worth $11 million this year), they provide insight on how far schools are willing to go to attract the top talent and keep them from straying. 
 
 
